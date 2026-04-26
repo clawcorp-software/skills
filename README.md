@@ -23,6 +23,7 @@ Or browse on [skills.sh](https://skills.sh/clawcorp-software/skills).
 | Skill | Description |
 |-------|-------------|
 | [`bullshit`](./bullshit/SKILL.md) | Detect false completions, force the REAL fix, escalate to systematic resolution. Replaces XP-only enforcement that produced theater instead of working code. |
+| [`ki-systematic-resolution`](./ki-systematic-resolution/SKILL.md) | 10-phase protocol to repair known-issue records cumulatively. Stops thin-KI drift, fake closures, and orphaned commits. Use on the 3rd+ incident under a parent. |
 
 ## Why these exist
 
@@ -38,7 +39,6 @@ These skills enforce the discipline that keeps agents honest: real verification,
 
 More ClawCorp skills coming soon:
 
-- `ki-systematic-resolution` -- 10-phase known-issue protocol with cumulative fixes
 - `ghost-sos` -- delegate to specialist sub-agents (legal, research, security, etc.)
 - `recall-teammate` -- read another agent's session backwards without context bloat
 - `verification-before-completion` -- mandatory pre-PR checklist gate
