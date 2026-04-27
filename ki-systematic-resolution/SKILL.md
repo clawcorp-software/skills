@@ -1,6 +1,7 @@
 ---
 name: ki-systematic-resolution
 description: "MANDATORY (a) when filing a 3rd+ incident under an existing known-issue, (b) when a recurring fix is clearly not holding in production, OR (c) when about to create a new parent known-issue for a product surface that MIGHT already have one. Run this to repair the known-issue record itself before repairing code: verify the correct parent, create or fix incidents, attach screenshots to the right record, classify old fixes, gather only real evidence, implement a systemic fix, verify it, then update the record with cumulative human-readable documentation. Prevents thin-KI drift (one parent per recurrence instead of one parent + N incidents)."
+kind: ours
 ---
 
 # Known-Issue Systematic Resolution

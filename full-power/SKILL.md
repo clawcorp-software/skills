@@ -1,3 +1,9 @@
+---
+name: full-power
+description: Maximum-quality orchestrator. Selects and executes the right combination of skills, ghosts, and subagents for a task.
+kind: ours
+---
+
 # Full Power -- Maximum Quality Orchestrator
 
 When invoked, the agent must deliver MAXIMUM quality work by selecting and executing the right combination of skills, ghosts, and subagents. No shortcuts. No corners cut.

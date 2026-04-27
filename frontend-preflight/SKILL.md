@@ -1,6 +1,7 @@
 ---
 name: frontend-preflight
 description: "Frontend-only checklist for dashboard changes. Optional helper for UI work. Independent from verification-before-completion."
+kind: ours
 ---
 
 # /frontend-preflight

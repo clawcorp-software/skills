@@ -1,6 +1,7 @@
 ---
 name: bullshit
 description: "Detect false completions, force the REAL fix, trigger ki-systematic-resolution. Replaces XP-only enforcement that produced theater instead of working code."
+kind: ours
 ---
 
 # /bullshit -- Prove It Works Or Fix It Now

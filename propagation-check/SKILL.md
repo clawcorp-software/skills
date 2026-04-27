@@ -1,6 +1,7 @@
 ---
 name: propagation-check
 description: "Verification complete post-changement. MANDATORY after editing critical files (.claude/, tower/config/, normalize, CONSTITUTIONAL, policy)."
+kind: ours
 ---
 
 # Propagation Check -- 6-Layer Verification

@@ -3,6 +3,7 @@ name: save-and-sleep
 description: "Session end protocol. Ensures your next self has 100% context to resume exactly where you stopped. Invokes kanban-sync cascade, verifies artifacts, writes minimal LATEST-HANDOFF.md."
 tags: [handoff, session, save, sleep, cascade, context]
 autoTrigger: never
+kind: ours
 ---
 
 # Save and Sleep -- Session End Protocol

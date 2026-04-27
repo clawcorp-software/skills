@@ -1,9 +1,13 @@
 ---
 name: verification-before-completion
 description: "Canonical pre-close verification. Run before claiming done, before creating a PR, and before saying a fix holds. Independent from frontend-preflight."
+kind: adapted
+upstream: https://github.com/obra/superpowers
 ---
 
 # /verification-before-completion
+
+> Adapted from [`obra/superpowers`](https://github.com/obra/superpowers). Core principle preserved: evidence before claims, always. ClawCorp layer adds backend/data/routing/install/KI/docs scope and explicit independence from `frontend-preflight`.
 
 This is the final truth check before saying:
 - done

@@ -2,6 +2,7 @@
 name: competitive-scan
 description: "Use for competitive intelligence scanning. Searches the web for competitor updates, pricing changes, new features, and market positioning relevant to ClawCorp."
 user_invocable: true
+kind: ours
 ---
 
 # Competitive Scan

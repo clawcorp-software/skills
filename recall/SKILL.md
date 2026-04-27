@@ -2,6 +2,7 @@
 name: recall
 description: "Recover context from a crashed or past session. Reads transcripts bottom-up, cross-references against current state, produces a condensed summary. Use after a crash, a long pause, or when switching workers."
 user_invocable: true
+kind: ours
 ---
 
 # Recall -- Session Context Recovery

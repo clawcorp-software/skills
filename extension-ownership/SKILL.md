@@ -1,6 +1,7 @@
 ---
 name: extension-ownership
 description: "TOUR-OWNED file access rules. Invoke BEFORE editing tower/extensions/clawcorp-launcher/extension.js, before copying to ~/.vscode/extensions/, or before running the api-extension-contract.test.js. Covers the 5 API endpoints contract (GET /fleet/status, POST /agents/:name/launch, POST /agents/:name/heartbeat, PATCH /agents/:name, POST /extension/heartbeat), the mandatory deploy step to ~/.vscode/extensions/, and regression testing. KI-63 recurring issue -- only Tour edits extension.js."
+kind: ours
 ---
 
 # Extension Ownership Rule (KI-63)

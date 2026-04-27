@@ -1,3 +1,9 @@
+---
+name: ki-external-scan
+description: Scan all open Known Issues for external fixes, vendor resolutions, and workarounds available on the web.
+kind: ours
+---
+
 # KI External Scan
 
 Scan ALL open Known Issues for external fixes, vendor resolutions, and workarounds available on the web.

@@ -1,6 +1,7 @@
 ---
 name: deep-research-report
 description: "Use when you need a comprehensive research report on any topic -- deploys multiple ghosts with overlapping research angles, then synthesizes findings into one mega report. Comparable to GPT deep research but free via leanstral."
+kind: ours
 ---
 
 # Deep Research Report -- Multi-Source Mega Analysis

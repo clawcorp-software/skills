@@ -2,6 +2,7 @@
 name: recall-teammate
 description: "Read another agent's live session backwards from the latest message. Works for BOTH Claude Code (~/.claude/projects) AND Codex CLI (~/.codex/sessions). Identifies session owner via cwd. Use when you need to know what a teammate is currently doing, what they just decided, or to avoid conflicting work."
 tags: [coordination, memory, recall, multi-agent, jsonl, claude, codex]
+kind: ours
 ---
 
 # recall-teammate

@@ -1,3 +1,9 @@
+---
+name: safe-cmd
+description: Pre-output checkpoint. Exhaust internal execution paths before asking the user to paste any command.
+kind: ours
+---
+
 # /safe-cmd -- Pre-output checkpoint: exhaust internal first, then wrap paste-safe
 
 **MANDATORY BEFORE EMITTING ANY USER-FACING COMMAND.**

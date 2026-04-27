@@ -1,6 +1,7 @@
 ---
 name: calling-research-agents
 description: Use when a dev agent needs to delegate research, legal analysis, market intel, competitor scans, security audits, or data synthesis to a ClawCorp research agent via the dashboard API
+kind: ours
 ---
 
 # Calling Research Agents

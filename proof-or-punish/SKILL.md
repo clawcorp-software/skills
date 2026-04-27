@@ -3,6 +3,7 @@ name: proof-or-punish
 description: "XP enforcement -- auto-penalize bullshit fixes, plasters, breaches. Auto-reward clean deliveries."
 user_invocable: true
 category: high
+kind: ours
 ---
 
 # Proof or Punish -- XP Enforcement System

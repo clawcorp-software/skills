@@ -1,6 +1,7 @@
 ---
 name: ingest-video
 description: "Ingest a YouTube video transcript into the ClawCorp database for agent research. Paste a URL, get a searchable transcript."
+kind: ours
 ---
 
 # Ingest Video

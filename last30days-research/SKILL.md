@@ -1,12 +1,14 @@
 ---
 name: last30days-research
 description: "Run /last30days research through ClawCorp guardrails. Tracks ScrapeCreators API usage, enforces PYTHONUTF8 for Windows, saves reports to brain/reports/."
+kind: adapted
+upstream: https://github.com/mvanhorn/last30days-skill
 ---
 
 # /last30days Research (ClawCorp Integration)
 
 External research across Reddit, X, YouTube, HN, Polymarket, TikTok, Instagram.
-Wraps the global /last30days skill with ClawCorp guardrails and usage tracking.
+Wraps the upstream [`mvanhorn/last30days-skill`](https://github.com/mvanhorn/last30days-skill) with ClawCorp guardrails (ScrapeCreators usage tracking, PYTHONUTF8 enforcement on Windows, reports saved to `brain/reports/`).
 
 ## When to Use
 

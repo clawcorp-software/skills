@@ -2,6 +2,7 @@
 name: tribunal
 description: "XP enforcement court for critical incidents. Gathers dossier, delivers verdict, applies consequences via proof-or-punish. Auto-invoked on KI 3rd+ occurrence, stupidity, breaches, bullshit tags."
 tags: [enforcement, xp, tribunal, governance]
+kind: ours
 ---
 
 # The Tribunal -- XP Enforcement Court

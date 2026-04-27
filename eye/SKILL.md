@@ -2,6 +2,7 @@
 name: eye
 description: "Visual QA + browser-debug workflow. Use Playwright MCP for reproducible QA, then escalate to Chrome DevTools MCP for live CSS inspect, computed styles, console, network, performance, and logged-in state."
 tags: [qa, visual, playwright, testing, frontend]
+kind: ours
 ---
 
 # /eye -- Visual QA + Browser Debug Workflow

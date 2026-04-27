@@ -1,6 +1,7 @@
 ---
 name: google-tools
 description: "Operational protocol for Google tools in ClawCorp. Covers Gemini classifier, BigQuery commit patterns, PageSpeed, Cloud NLP, readiness checks, bootstrap, sync, query, and failure handling."
+kind: ours
 ---
 
 # /google-tools -- Google Power Protocol

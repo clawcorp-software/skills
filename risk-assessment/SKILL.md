@@ -1,6 +1,7 @@
 ---
 name: risk-assessment
 description: "Proactive risk scoring BEFORE coding critical changes. Scans blast radius, KI history, dependencies, then scores likelihood x impact. Escalates automatically on HIGH/CRITICAL. Use when touching server/index.js, .claude/rules/, tower/config/, DB schema, auth, or any area with 3+ KI incidents."
+kind: ours
 ---
 
 # Risk Assessment -- Proactive Pre-Change Gate

@@ -1,6 +1,7 @@
 ---
 name: multi-ghost-sos
 description: "Use when facing a complex problem that needs multiple perspectives -- deploy 2-4 ghosts in parallel for a comprehensive analysis. Combines debugging, security, architecture, and strategic views."
+kind: ours
 ---
 
 # Multi-Ghost SOS -- Parallel Ghost Reports

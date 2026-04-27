@@ -2,6 +2,7 @@
 name: kanban-sync
 description: "Auto-sync kanban board: task status tracking, cascade context linking. The task is the single source of truth across sessions."
 tags: [kanban, sync, automation, tracking, cascade, handoff]
+kind: ours
 ---
 
 # Kanban Sync -- Self-Tracking for Agents

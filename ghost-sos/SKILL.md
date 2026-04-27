@@ -1,6 +1,7 @@
 ---
 name: ghost-sos
 description: "Use when a worker is stuck on a bug, design problem, architecture decision, or any task where external analysis would help. Automatically selects the right ghost(s) and deploys targeted reports via /api/llm/call."
+kind: ours
 ---
 
 # Ghost SOS -- Single Ghost Report

@@ -1,6 +1,7 @@
 ---
 name: research-gate
 description: "Mandatory existence/blast-radius/relation check before changing architecture, routing, DB schema, skills, protocols, or canonical data flows."
+kind: ours
 ---
 
 # /research-gate -- Canonical Search Before Change

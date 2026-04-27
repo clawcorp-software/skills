@@ -2,6 +2,8 @@
 name: multiagent-autoresearch
 description: "Coordinate autonomous experiment loops across multiple workers with strict ownership, shared scoring, and synthesis reporting. Use when one worker should orchestrate bounded research tracks in parallel without overlapping edit surfaces."
 user_invocable: true
+kind: adapted
+upstream: https://github.com/karpathy/autoresearch
 ---
 
 # multiagent-autoresearch

@@ -2,6 +2,8 @@
 name: autoresearch
 description: "Run Karpathy-style autonomous experiment loops inside a small repo or bounded subsystem. Creates a dedicated research branch, establishes a baseline, iterates one file or surface at a time, records results, and keeps only improvements."
 user_invocable: true
+kind: adapted
+upstream: https://github.com/karpathy/autoresearch
 ---
 
 # autoresearch

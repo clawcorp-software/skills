@@ -2,6 +2,7 @@
 name: decision-brief
 description: Use when proposing any new tool, framework, architecture, or significant technical decision. Forces research-backed decision making with minimum 3 independent sources.
 user_invocable: true
+kind: ours
 ---
 
 # Decision Brief (Research Gate)

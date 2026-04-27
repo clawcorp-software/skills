@@ -20,7 +20,20 @@ Or browse on [skills.sh](https://skills.sh/clawcorp-software/skills).
 
 ## Skills
 
-Full catalog mirrors the ClawCorp dashboard view at `/app/tools.html#view=skills`. **ours** = ClawCorp-authored originals, **adapted** = forked + modified from upstream (credits inside each SKILL.md).
+Full catalog mirrors the ClawCorp dashboard view at `/app/tools.html#view=skills`.
+
+- **ours** = ClawCorp-authored originals.
+- **adapted** = forked or built on top of an upstream skill. Each `SKILL.md` carries a `kind:` field and (when adapted) an `upstream:` URL in its frontmatter, so the origin is canonical at the file level — this table is generated from that metadata.
+
+**Adapted skills and their upstreams:**
+
+| Skill | Upstream |
+|-------|----------|
+| `autoresearch` | [karpathy/autoresearch](https://github.com/karpathy/autoresearch) |
+| `multiagent-autoresearch` | [karpathy/autoresearch](https://github.com/karpathy/autoresearch) (orchestration layer on top) |
+| `last30days-research` | [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) |
+| `verification-before-completion` | [obra/superpowers](https://github.com/obra/superpowers) |
+| `git-commit-push-pr` | community git-workflow pattern |
 
 | Skill | Description | Origin |
 |-------|-------------|--------|
@@ -47,7 +60,7 @@ Full catalog mirrors the ClawCorp dashboard view at `/app/tools.html#view=skills
 | [`ki-systematic-resolution`](./ki-systematic-resolution/SKILL.md) | 10-phase known-issue protocol: cumulative fixes, real evidence, no plasters. | ours |
 | [`last30days-research`](./last30days-research/SKILL.md) | Reddit/X/HN/YouTube research with usage tracking via ScrapeCreators. | adapted |
 | [`multi-ghost-sos`](./multi-ghost-sos/SKILL.md) | Deploy 2-4 specialist sub-agents in parallel for complex multi-angle problems. | ours |
-| [`multiagent-autoresearch`](./multiagent-autoresearch/SKILL.md) | Coordinate autoresearch loops across multiple workers with shared scoring. | ours |
+| [`multiagent-autoresearch`](./multiagent-autoresearch/SKILL.md) | Coordinate autoresearch loops across multiple workers with shared scoring. | adapted |
 | [`proof-or-punish`](./proof-or-punish/SKILL.md) | Auto-reward clean deliveries, auto-penalize bullshit fixes (signal layer). | ours |
 | [`propagation-check`](./propagation-check/SKILL.md) | Mandatory post-change verification after editing rules, config, normalize, or policy. | ours |
 | [`recall`](./recall/SKILL.md) | Rebuild context from a past or crashed session using transcripts. | ours |
@@ -57,7 +70,8 @@ Full catalog mirrors the ClawCorp dashboard view at `/app/tools.html#view=skills
 | [`save-and-sleep`](./save-and-sleep/SKILL.md) | End-of-session protocol: write handoff, memory index, clean artifacts. | ours |
 | [`systematic-debugging`](./systematic-debugging/SKILL.md) | Hypothesis isolation + evidence collection for recurring or contradictory bugs. | ours |
 | [`tribunal`](./tribunal/SKILL.md) | Critical-incident enforcement court: gather dossier, deliver verdict, apply consequences. | ours |
-| [`verification-before-completion`](./verification-before-completion/SKILL.md) | Run verification commands and confirm output before claiming done or opening a PR. | ours |
+| [`safe-cmd`](./safe-cmd/SKILL.md) | Pre-output checkpoint. Exhaust internal execution paths before asking the user to paste a command. | ours |
+| [`verification-before-completion`](./verification-before-completion/SKILL.md) | Run verification commands and confirm output before claiming done or opening a PR. | adapted |
 
 
 ## Why these exist

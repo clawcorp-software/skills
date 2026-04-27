@@ -2,6 +2,7 @@
 name: fleet-status
 description: "Use to get a complete status of all agents, their compliance scores, pending POKEs, and system health. Quick overview of the entire fleet."
 user_invocable: true
+kind: ours
 ---
 
 # Fleet Status — Skill de Management

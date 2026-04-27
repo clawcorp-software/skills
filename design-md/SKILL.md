@@ -2,6 +2,7 @@
 name: design-md
 description: Load ClawCorp's shared DESIGN.md only when a task touches UI, UX, frontend, dashboard, docs presentation, or agent-facing product surfaces. Keeps design context consistent without inflating every boot.
 user_invocable: true
+kind: ours
 ---
 
 # design-md

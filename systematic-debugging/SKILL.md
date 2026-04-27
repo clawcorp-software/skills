@@ -1,6 +1,7 @@
 ---
 name: systematic-debugging
 description: "Structured debugging protocol for old recurring bugs, contradictory symptoms, or any bug where ad-hoc patching has already failed. Forces hypothesis isolation, evidence collection, and root-cause confirmation before any fix."
+kind: ours
 ---
 
 # Systematic Debugging

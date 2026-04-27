@@ -1,3 +1,9 @@
+---
+name: git-commit-push-pr
+description: One-shot git workflow: stage, commit, push, create-pr with the agent identity in a single call.
+kind: adapted
+---
+
 # git-commit-push-pr — One-Shot Git Workflow
 
 Automates the complete git workflow: `git add` → `git commit` → `git push` → GitHub App `createPullRequest` in a single call.

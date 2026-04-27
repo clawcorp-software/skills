@@ -1,3 +1,9 @@
+---
+name: full-design
+description: Run every design skill in sequence: critique, adapt, animate, colorize, delight, polish. Maximum design quality.
+kind: ours
+---
+
 # Full Design Power -- All Design Skills in Sequence
 
 Shortcut for maximum design quality. Runs the full design pipeline automatically.

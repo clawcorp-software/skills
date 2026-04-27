@@ -1,6 +1,7 @@
 ---
 name: ki-conventions
 description: "Known Issue (KI) and Incident filing conventions. Invoke BEFORE filing a KI or incident, when triaging a hashtag vs KI vs incident decision, when handling a 2nd/3rd/4th+ recurrence of a known issue, or when a bug is flagged as bullshit/plaster type. Covers taxonomy, severity scoring, recurrence escalation protocol (steps 1-4), enforcement layer trade-offs, and when to invoke /ki-systematic-resolution."
+kind: ours
 ---
 
 # Known Issue (KI) & Incident Conventions
